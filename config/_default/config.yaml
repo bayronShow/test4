@@ -49,7 +49,7 @@ languages:
     title: Hugo Relearn Theme
     weight: 1
   pir:
-    languageName: Зерколный
+    languageName: Зеркальный
 module:
   mounts:
     - source: archetypes
@@ -72,15 +72,15 @@ module:
       target: static
 params:
   themeVariant:
-    - auto
+    - авто
     - relearn-bright
     - relearn-light
     - relearn-dark
     - learn
-    - neon
-    - blue
-    - green
-    - red
+    - неон
+    - голубой
+    - зеленый
+    - красный
   themeVariantAuto:
     - relearn-light
     - relearn-dark
