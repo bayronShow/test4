@@ -48,6 +48,8 @@ languages:
       landingPageName: <i class='fas fa-home'></i> Home
     title: Hugo Relearn Theme
     weight: 1
+  pir:
+    languageName: Arrr! ☠ Pirrrates ☠
 module:
   mounts:
     - source: archetypes
