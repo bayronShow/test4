@@ -44,6 +44,10 @@ languages:
         - name: <i class='fas fa-fw fa-tags'></i> Теги
           pageRef: tags/
           weight: 40
+    params:
+      landingPageName: <i class='fas fa-home'></i> Home
+    title: Hugo Relearn Theme
+    weight: 1
 module:
   mounts:
     - source: archetypes
