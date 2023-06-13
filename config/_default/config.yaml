@@ -50,7 +50,7 @@ languages:
     weight: 1
   pir:
     languageName: Reverse
-  module:
+module:
   mounts:
     - source: archetypes
       target: archetypes
