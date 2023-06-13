@@ -36,8 +36,7 @@ server:
 language:
   en:
     languageName: English
-    menu:
-      shortcuts:
+      shortcut:
         - name: <i class='fas fa-fw fa-bullhorn'></i> Новости
           pageRef: more/credits/
           weight: 30
