@@ -45,10 +45,10 @@ languages:
           name: <i class='fas fa-fw fa-bookmark'></i> Hugo Documentation
           url: https://gohugo.io/
           weight: 20
-        - name: <i class='fas fa-fw fa-bullhorn'></i> Credits
+        - name: <i class='fas fa-fw fa-bullhorn'></i> Новости
           pageRef: more/credits/
           weight: 30
-        - name: <i class='fas fa-fw fa-tags'></i> Tags
+        - name: <i class='fas fa-fw fa-tags'></i> Теги
           pageRef: tags/
           weight: 40
     params:
