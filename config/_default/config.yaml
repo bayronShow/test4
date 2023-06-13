@@ -49,8 +49,8 @@ languages:
     title: Hugo Relearn Theme
     weight: 1
 
-params:
-  themeVariant:
+   params:
+     themeVariant:
     - auto
     - relearn-bright
     - relearn-light
