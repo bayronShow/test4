@@ -48,7 +48,9 @@ languages:
       landingPageName: <i class='fas fa-home'></i> Home
     title: Hugo Relearn Theme
     weight: 1
-module:
+  pir:
+    languageName: Reverse
+  module:
   mounts:
     - source: archetypes
       target: archetypes
