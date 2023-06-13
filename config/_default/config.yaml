@@ -38,10 +38,6 @@ languages:
     languageName: English
     menu:
       shortcuts:
-        - identifier: ds
-          name: <i class='fab fa-fw fa-github'></i> GitHub repo
-          url: https://github.com/McShelby/hugo-theme-relearn
-          weight: 10
         - name: <i class='fas fa-fw fa-camera'></i> Showcases
           pageRef: showcase/
           weight: 11
