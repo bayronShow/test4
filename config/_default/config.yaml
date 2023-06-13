@@ -77,10 +77,10 @@ params:
     - relearn-light
     - relearn-dark
     - learn
-    - неон
-    - голубой
-    - зеленый
-    - красный
+    - neon
+    - blue
+    - green
+    - red
   themeVariantAuto:
     - relearn-light
     - relearn-dark
