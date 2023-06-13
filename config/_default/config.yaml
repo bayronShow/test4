@@ -3,8 +3,7 @@ canonifyURLs: yes
 relativeURLs: yes
 uglyURLs: no
 theme: hugo-theme-relearn
-languageCode: en
-defaultContentLanguage: en
+defaultContentLanguage: ru
 title: Hugo Relearn Documentation
 outputs:
   home:
@@ -56,6 +55,26 @@ languages:
       landingPageName: <i class='fas fa-home'></i> Arrr! Home
     title: Cap'n Hugo Relearrrn Theme
     weight: 2
+module:
+  mounts:
+    - source: archetypes
+      target: archetypes
+    - source: assets
+      target: assets
+    - source: content
+      target: content
+    - source: data
+      target: data
+    - source: i18n
+      target: i18n
+    - source: ../images
+      target: static/images
+    - source: static/images
+      target: static/images
+    - source: layouts
+      target: layouts
+    - source: static
+      target: static
 params:
   additionalContentLanguage: en
   author: Sören Weber
