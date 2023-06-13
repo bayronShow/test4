@@ -93,6 +93,7 @@ module:
       target: layouts
     - source: static
       target: static
+params:
   themeVariant:
     - auto
     - relearn-bright
