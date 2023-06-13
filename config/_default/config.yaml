@@ -38,13 +38,9 @@ languages:
     languageName: English
     menu:
       shortcuts:
-        - name: <i class='fas fa-fw fa-camera'></i> Showcases
+        - name: <i class='fas fa-fw fa-camera'></i> Фото
           pageRef: showcase/
           weight: 11
-        - identifier: hugodoc
-          name: <i class='fas fa-fw fa-bookmark'></i> Hugo Documentation
-          url: https://gohugo.io/
-          weight: 20
         - name: <i class='fas fa-fw fa-bullhorn'></i> Новости
           pageRef: more/credits/
           weight: 30
@@ -58,28 +54,6 @@ languages:
   pir:
     languageName: Arrr! ☠ Pirrrates ☠
     menu:
-      shortcuts:
-        - identifier: ds
-          name: <i class='fab fa-fw fa-github'></i> GitHub repo
-          url: https://github.com/McShelby/hugo-theme-relearn
-          weight: 10
-        - name: <i class='fas fa-fw fa-camera'></i> Showcases
-          pageRef: showcase/
-          weight: 11
-        - identifier: hugodoc
-          name: <i class='fas fa-fw fa-bookmark'></i> Cap'n Hugo Documentat'n
-          url: https://gohugo.io/
-          weight: 20
-        - name: <i class='fas fa-fw fa-bullhorn'></i> Crrredits
-          pageRef: more/credits/
-          weight: 30
-        - name: <i class='fas fa-fw fa-tags'></i> Arrr! Tags
-          pageRef: tags/
-          weight: 40
-    params:
-      landingPageName: <i class='fas fa-home'></i> Arrr! Home
-    title: Cap'n Hugo Relearrrn Theme
-    weight: 2
 module:
   mounts:
     - source: archetypes
