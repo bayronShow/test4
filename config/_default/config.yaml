@@ -51,6 +51,11 @@ languages:
       landingPageName: <i class='fas fa-home'></i> Home
     title: Hugo Relearn Theme
     weight: 1
+    menu:
+    params:
+      landingPageName: <i class='fas fa-home'></i> Arrr! Home
+    title: Cap'n Hugo Relearrrn Theme
+    weight: 2
 module:
   mounts:
     - source: archetypes
