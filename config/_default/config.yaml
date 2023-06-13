@@ -6,22 +6,6 @@ theme: hugo-theme-relearn
 languageCode: en
 defaultContentLanguage: en
 title: Hugo Relearn Documentation
-outputs:
-  home:
-    - HTML
-    - RSS
-    - PRINT
-    - SEARCH
-    - SEARCHPAGE
-  page:
-    - HTML
-    - RSS
-    - PRINT
-  section:
-    - HTML
-    - RSS
-    - PRINT
-
 params:
   themeVariant:
     - auto
