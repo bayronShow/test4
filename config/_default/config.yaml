@@ -38,10 +38,6 @@ languages:
     languageName: English
     menu:
       shortcuts:
-        - identifier: ds
-          name: <i class='fab fa-fw fa-github'></i> GitHub repo
-          url: https://github.com/McShelby/hugo-theme-relearn
-          weight: 10
         - name: <i class='fas fa-fw fa-camera'></i> Showcases
           pageRef: showcase/
           weight: 11
@@ -49,9 +45,6 @@ languages:
           name: <i class='fas fa-fw fa-bookmark'></i> Hugo Documentation
           url: https://gohugo.io/
           weight: 20
-        - name: <i class='fas fa-fw fa-bullhorn'></i> Credits
-          pageRef: more/credits/
-          weight: 30
         - name: <i class='fas fa-fw fa-tags'></i> Tags
           pageRef: tags/
           weight: 40
@@ -59,51 +52,10 @@ languages:
       landingPageName: <i class='fas fa-home'></i> Home
     title: Hugo Relearn Theme
     weight: 1
-  pir:
-    languageName: Arrr! ☠ Pirrrates ☠
-    menu:
-      shortcuts:
-        - identifier: ds
-          name: <i class='fab fa-fw fa-github'></i> GitHub repo
-          url: https://github.com/McShelby/hugo-theme-relearn
-          weight: 10
-        - name: <i class='fas fa-fw fa-camera'></i> Showcases
-          pageRef: showcase/
-          weight: 11
-        - identifier: hugodoc
-          name: <i class='fas fa-fw fa-bookmark'></i> Cap'n Hugo Documentat'n
-          url: https://gohugo.io/
-          weight: 20
-        - name: <i class='fas fa-fw fa-bullhorn'></i> Crrredits
-          pageRef: more/credits/
-          weight: 30
-        - name: <i class='fas fa-fw fa-tags'></i> Arrr! Tags
-          pageRef: tags/
-          weight: 40
     params:
       landingPageName: <i class='fas fa-home'></i> Arrr! Home
     title: Cap'n Hugo Relearrrn Theme
     weight: 2
-module:
-  mounts:
-    - source: archetypes
-      target: archetypes
-    - source: assets
-      target: assets
-    - source: content
-      target: content
-    - source: data
-      target: data
-    - source: i18n
-      target: i18n
-    - source: ../images
-      target: static/images
-    - source: static/images
-      target: static/images
-    - source: layouts
-      target: layouts
-    - source: static
-      target: static
 params:
   additionalContentLanguage: en
   author: Sören Weber
