@@ -44,31 +44,6 @@ languages:
         - name: <i class='fas fa-fw fa-tags'></i> Теги
           pageRef: tags/
           weight: 40
-    params:
-      landingPageName: <i class='fas fa-home'></i> Home
-    title: Hugo Relearn Theme
-    weight: 1
-  pir:
-    languageName: Arrr! ☠ Pirrrates ☠
-    menu:
-      shortcuts:
-        - identifier: ds
-          name: <i class='fab fa-fw fa-github'></i> GitHub repo
-          url: https://github.com/McShelby/hugo-theme-relearn
-          weight: 10
-        - name: <i class='fas fa-fw fa-camera'></i> Showcases
-          pageRef: showcase/
-          weight: 11
-        - identifier: hugodoc
-          name: <i class='fas fa-fw fa-bookmark'></i> Cap'n Hugo Documentat'n
-          url: https://gohugo.io/
-          weight: 20
-        - name: <i class='fas fa-fw fa-bullhorn'></i> Crrredits
-          pageRef: more/credits/
-          weight: 30
-        - name: <i class='fas fa-fw fa-tags'></i> Arrr! Tags
-          pageRef: tags/
-          weight: 40
 module:
   mounts:
     - source: archetypes
