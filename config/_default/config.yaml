@@ -51,29 +51,7 @@ languages:
       landingPageName: <i class='fas fa-home'></i> Home
     title: Hugo Relearn Theme
     weight: 1
-  pir:
-    languageName: Arrr! ☠ Pirrrates ☠
     menu:
-module:
-  mounts:
-    - source: archetypes
-      target: archetypes
-    - source: assets
-      target: assets
-    - source: content
-      target: content
-    - source: data
-      target: data
-    - source: i18n
-      target: i18n
-    - source: ../images
-      target: static/images
-    - source: static/images
-      target: static/images
-    - source: layouts
-      target: layouts
-    - source: static
-      target: static
 params:
   additionalContentLanguage: en
   author: Sören Weber
