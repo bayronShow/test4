@@ -36,19 +36,7 @@ server:
 languages:
   en:
     languageName: English
-    menu:
-      shortcuts:
-        - name: <i class='fas fa-fw fa-bullhorn'></i> Новости
-          pageRef: more/credits/
-          weight: 30
-        - name: <i class='fas fa-fw fa-tags'></i> Теги
-          pageRef: tags/
-          weight: 40
-    params:
-      landingPageName: <i class='fas fa-home'></i> Home
-    title: Hugo Relearn Theme
-    weight: 1
-    module:
+module:
   mounts:
     - source: archetypes
       target: archetypes
@@ -83,5 +71,15 @@ params:
     - relearn-light
     - relearn-dark
   titleSeparator: '::'
-  pir:
-    languageName: Reverse
+    menu:
+      shortcuts:
+        - name: <i class='fas fa-fw fa-bullhorn'></i> Новости
+          pageRef: more/credits/
+          weight: 30
+        - name: <i class='fas fa-fw fa-tags'></i> Теги
+          pageRef: tags/
+          weight: 40
+    params:
+      landingPageName: <i class='fas fa-home'></i> Home
+    title: Hugo Relearn Theme
+    weight: 1
