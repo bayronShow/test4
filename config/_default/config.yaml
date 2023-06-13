@@ -94,20 +94,6 @@ module:
     - source: static
       target: static
 params:
-  additionalContentLanguage: en
-  author: Sören Weber
-  breadcrumbSeparator: '>'
-  collapsibleMenu: yes
-  description: Documentation for Hugo Relearn Theme
-  disableBreadcrumb: no
-  disableInlineCopyToClipBoard: yes
-  disableLandingPageButton: yes
-  disableNextPrev: no
-  disableSeoHiddenPages: yes
-  editURL: https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/
-  mermaidInitialize: '{ "securityLevel": "loose" }'
-  mermaidZoom: yes
-  showVisitedLinks: yes
   themeVariant:
     - auto
     - relearn-bright
