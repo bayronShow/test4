@@ -33,26 +33,6 @@ server:
     - for: '**.html'
       values:
         X-UA-Compatible: IE=edge
-module:
-  mounts:
-    - source: archetypes
-      target: archetypes
-    - source: assets
-      target: assets
-    - source: content
-      target: content
-    - source: data
-      target: data
-    - source: i18n
-      target: i18n
-    - source: ../images
-      target: static/images
-    - source: static/images
-      target: static/images
-    - source: layouts
-      target: layouts
-    - source: static
-      target: static
 params:
   themeVariant:
     - auto
