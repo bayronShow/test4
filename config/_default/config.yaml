@@ -21,18 +21,7 @@ outputs:
     - HTML
     - RSS
     - PRINT
-markup:
-  goldmark:
-    renderer:
-      unsafe: yes
-  highlight:
-    guessSyntax: no
-    noClasses: no
-server:
-  headers:
-    - for: '**.html'
-      values:
-        X-UA-Compatible: IE=edge
+
 params:
   themeVariant:
     - auto
