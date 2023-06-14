@@ -44,13 +44,11 @@ languages:
         - name: <i class='fas fa-fw fa-tags'></i> Теги
           pageRef: tags/
           weight: 40
-        - name: <i class='fas fa-fw fa-more'></i> Прочее
-          pageRef: more/
-          weight: 40
-
     params:
       landingPageName: <i class='fas fa-home'></i> Начальная страница
     title: Ознакомительная страница
+    weight: 1
+      landingPageName: <i class='fas fa-more'></i> Начальная страница
     weight: 1
   pir:
     languageName: Зеркальный
