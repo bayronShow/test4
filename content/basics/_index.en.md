@@ -1,6 +1,6 @@
 ---
 archetype: chapter
-title: Basics
+title: Инструкции
 weight: 1
 ---
 
