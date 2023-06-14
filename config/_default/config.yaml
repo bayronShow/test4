@@ -72,7 +72,7 @@ module:
       target: static
 params:
   themeVariant:
-    - автоматическая настройка
+    - auto
     - relearn-bright
     - relearn-light
     - relearn-dark
