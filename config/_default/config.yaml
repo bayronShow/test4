@@ -84,4 +84,4 @@ params:
   themeVariantAuto:
     - relearn-light
     - relearn-dark
-
+  titleSeparator: '::'
