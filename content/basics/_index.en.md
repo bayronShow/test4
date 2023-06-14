@@ -1,4 +1,5 @@
 ---
+archetype: 1 chapter 
 title: Инструкции по эксплуатации
 weight: 1
 ---
