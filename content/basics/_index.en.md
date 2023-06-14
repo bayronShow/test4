@@ -1,6 +1,6 @@
 ---
 archetype: chapter
-title: Инструкции
+title: Инструкции по эксплуатации лаборатории
 weight: 1
 ---
 
