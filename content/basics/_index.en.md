@@ -1,6 +1,6 @@
 ---
-archetype: 1 chapter 
-title: Инструкции по эксплуатации
+archetype: chapter
+title: Basics
 weight: 1
 ---
 
