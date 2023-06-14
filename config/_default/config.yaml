@@ -46,8 +46,8 @@ languages:
           weight: 40
     params:
       landingPageName: <i class='fas fa-home'></i> Начальная страница
-    title: Hugo Relearn Theme
-    weight: 1
+    title: Ознакомительная страница
+    weight: 2
   pir:
     languageName: Зеркальный
 module:
