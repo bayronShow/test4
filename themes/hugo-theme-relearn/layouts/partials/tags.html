@@ -1,7 +1,7 @@
 
 {{- $page := . }}
 {{- if .Params.tags }}
-<div class="теги">
+<div class="tags">
   {{- $tags := slice | append .Params.tags }}
   {{- range sort $tags }}
     {{- $tag := . }}
