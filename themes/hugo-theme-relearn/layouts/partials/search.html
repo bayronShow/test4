@@ -1,5 +1,5 @@
         {{- $link := "" }}
-        {{- if or (.Site.Home.OutputFormats.Get "JSON") (.Site.Home.OutputFormats.Get "ПОИСК") }}
+        {{- if or (.Site.Home.OutputFormats.Get "JSON") (.Site.Home.OutputFormats.Get "SEARCH") }}
           {{- with .Site.Home.OutputFormats.Get "SEARCHPAGE" }}
             {{- $link = partial "relLangPrettyUglyURL.hugo" (dict "to" .) }}
           {{- end }}
