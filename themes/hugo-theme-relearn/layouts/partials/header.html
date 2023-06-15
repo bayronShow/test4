@@ -46,7 +46,7 @@
     {{ (printf $link (partial "relLangPrettyUglyURL.hugo" (dict "to" . "abs" true "basename" $basename)) .Rel .MediaType.Type ($title | htmlEscape)) | safeHTML }}
         {{- else if eq $outputFormat "searchpage" }}
         {{- else if eq .Name "SEARCHPAGE" }}
-        {{- else if and (ne .Name "JSON") (ne .Name "SEARCH") }}
+        {{- else if and (ne .Name "JSON") (ne .Name "Поиск) }}
     {{ (printf $link (partial "relLangPrettyUglyURL.hugo" (dict "to" .)) .Rel .MediaType.Type ($title | htmlEscape)) | safeHTML }}
         {{- end }}
       {{- end }}
