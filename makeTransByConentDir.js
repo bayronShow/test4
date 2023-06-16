@@ -167,6 +167,5 @@ function runThatShit(contentDirectory) {
   modifyConfig(path.join(sourceDirectory, ".."));
   return true;
 }
-
 const contentDirectory = path.join(__dirname, 'content');
 runThatShit(contentDirectory);
