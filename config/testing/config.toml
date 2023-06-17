@@ -6,7 +6,7 @@ disableHugoGeneratorInject = true
 # We are pretty sure, to not have unintentionally untranslated titles;
 # it may happen in case when shortcodes want to set an automatic title
 # out of a given style setting (this is allowed to fail for non severity styles)
-# enableMissingTranslationPlaceholders = true
+enableMissingTranslationPlaceholders = true
 
 # Audit your published site for problems
 # https://discourse.gohugo.io/t/audit-your-published-site-for-problems/35184/12?u=mcshelby
