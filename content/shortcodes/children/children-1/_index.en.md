@@ -2,8 +2,7 @@
 alwaysopen: false
 description: This is a demo child page
 tags:
-- children
-- non-hidden
+- новости
 title: page 1
 weight: 10
 ---
