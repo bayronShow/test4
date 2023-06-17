@@ -3,7 +3,7 @@ canonifyURLs: yes
 relativeURLs: yes
 uglyURLs: no
 theme: hugo-theme-relearn
-languageCode: ru
+languageCode: en
 defaultContentLanguage: ru
 title: Hugo Relearn Documentation
 outputs:
