@@ -1,5 +1,5 @@
 +++
-title = Прочее
+title = "Прочее"
 [_build]
   render = "never"
   list = "never"
