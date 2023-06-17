@@ -1,4 +1,4 @@
-{- $context := .context }}
+{{- $context := .context }}
 {{- $content := .content }}
 {{- $pagefield := cond (ne $content nil) nil (.pagefield | default "Content") }}
 {{- $writenotice := cond (ne .writenotice nil) .writenotice false }}
