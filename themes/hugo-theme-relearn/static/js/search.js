@@ -91,7 +91,7 @@ window.addEventListener( 'popstate', function ( event ){
 
 				// recreate the last search results and eventually
 				// restore the previous scrolling position
-                searchDetail( search );
+                searchDetail( поиск );
             }
         }
     }
