@@ -37,6 +37,10 @@ languages:
   en:
     languageName: Русский
     menu:
+      params:
+        landingPageName: <i class='fas fa-home'></i> Начальная страница
+      title: Ознакомительная страница
+      weight: 100
       shortcuts:
         - name: <i class='fas fa-fw fa-bullhorn'></i> Новости
           pageRef: more/credits/
@@ -44,10 +48,6 @@ languages:
         - name: <i class='fas fa-fw fa-tags'></i> Теги
           pageRef: tags/
           weight: 40
-    params:
-      landingPageName: <i class='fas fa-home'></i> Начальная страница
-    title: Ознакомительная страница
-    weight: 100
   pir:
     languageName: Зеркальный
 module:
