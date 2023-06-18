@@ -41,13 +41,13 @@ languages:
         landingPageName: <i class='fas fa-home'></i> Начальная страница
       title: Ознакомительная страница
       weight: 100
-      shortcuts:
-        - name: <i class='fas fa-fw fa-bullhorn'></i> Новости
-          pageRef: more/credits/
-          weight: 30
-        - name: <i class='fas fa-fw fa-tags'></i> Теги
-          pageRef: tags/
-          weight: 40 
+    shortcuts:
+      - name: <i class='fas fa-fw fa-bullhorn'></i> Новости
+        pageRef: more/credits/
+        weight: 30
+      - name: <i class='fas fa-fw fa-tags'></i> Теги
+        pageRef: tags/
+        weight: 40
   pir:
     languageName: Зеркальный
 module:
