@@ -47,7 +47,7 @@ languages:
     params:
       landingPageName: <i class='fas fa-home'></i> Начальная страница
     title: Ознакомительная страница
-    weight: 60
+    weight: 100
   pir:
     languageName: Зеркальный
 module:
