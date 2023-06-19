@@ -36,11 +36,11 @@ server:
 languages:
   en:
     languageName: Русский
+    menu:
     params:
-     title: Начальная страница
-     weight: 50
+      landingPageName: <i class='fas fa-home'></i> Начальная страница
     title: Ознакомительная страница
-    weight: 50
+    weight: 4
   pir:
     languageName: Зеркальный
 module:
