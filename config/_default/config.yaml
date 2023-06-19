@@ -31,7 +31,7 @@ markup:
 server:
   headers:
     - for: '**.html'
-      values: 
+      values:
         X-UA-Compatible: IE=edge
 languages:
   en:
