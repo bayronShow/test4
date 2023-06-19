@@ -45,8 +45,8 @@ languages:
           pageRef: tags/
           weight: 40
     params:
-      landingPageName: <i class='fas fa-home'></i> Начальная страница
-      weight: 100
+     title: <i class='fas fa-home'></i> Начальная страница
+     weight: 50
     title: Ознакомительная страница
     weight: 50
   pir:
