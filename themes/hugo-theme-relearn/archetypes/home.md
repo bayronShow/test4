@@ -1,6 +1,6 @@
 +++
-archetype = "Начальная страница"
-title = "Начальная страница"
+archetype = "home"
+title = "{{ replace .Name "-" " " | title }}"
 +++
 
 Lorem Ipsum.
