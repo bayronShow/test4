@@ -38,9 +38,9 @@ languages:
     languageName: Русский
     menu:
     params:
-      landingPageName: <i class='fas fa-home'></i> Начальная страница
+      landingPageName: <i class='fas fa-home'></i> Информация о лаборатории
       weight: 10
-    title: Ознакомительная страница
+    title: Информация о лаборатории
     weight: 1
   pir:
     languageName: Зеркальный
