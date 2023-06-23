@@ -2,7 +2,7 @@
 archetype: home
 title: Информация о лаборатории
 ---
-![image](test4/content/tableimage.png)
+![image](D:\test4\content\table.svg)
 
 - ЭЦИТ ХГУ им. Н.Ф. Катанова: сфера деятельности
 предприятия, структура и подчиненность
