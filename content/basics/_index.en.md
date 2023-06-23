@@ -1,5 +1,5 @@
 ---
-archetype: 1
+archetype: часть
 title: Инструкции по эксплуатации лаборатории
 weight: 1
 ---
