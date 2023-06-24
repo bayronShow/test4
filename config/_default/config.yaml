@@ -46,8 +46,8 @@ languages:
     languageName: Зеркальный
 module:
   mounts:
-    - source: archetypes
-      target: archetypes
+    - source: архитипы
+      target: архитипы
     - source: assets
       target: assets
     - source: content
