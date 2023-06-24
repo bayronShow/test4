@@ -1,6 +1,5 @@
 ---
-categories: basic
-disableToc: true
+disableToc: false
 title: Настройка и подключение оборудования
 weight: 10
 ---
