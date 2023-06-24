@@ -1,6 +1,4 @@
 ---
-tags:
-- documentation
 title: Проектирование карты сети
 weight: 15
 ---
