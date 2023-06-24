@@ -1,5 +1,5 @@
 ---
-archetype: chapter
+ - archetype: chapter
 title: Общая характеристика информационной системы
 weight: 1
 ---
